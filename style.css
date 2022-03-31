@@ -2,7 +2,7 @@
   --green: #00a82d;
 }
 body {
-  background-color: #00a82d;
+  background-color: var(--green);
   margin: 0%;
   padding: 0%;
 }
@@ -30,7 +30,7 @@ body {
   font-size: 18px;
 }
 .item-separado {
-  color: #00a82d;
+  color: var(--green);
   font-size: 20px;
   height: 20px;
 }
@@ -40,7 +40,7 @@ body {
 .button-item {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  border: 2px solid #00a82d;
+  border: 2px solid var(--green);
   padding: 10px;
   background: none;
   outline: none;
@@ -75,7 +75,7 @@ body {
 }
 .botao-principal {
   background-color: #ffffff;
-  color: #00a82d;
+  color: var(--green);
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 290px;
