@@ -46,10 +46,17 @@ body {
   background: none;
   outline: none;
   color: var(--green);
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.button-item:hover {
+  background-color: var(--green);
+  color: #ffffff;
 }
 .conteudo {
   border-top: 0.4px solid #fff2e7;
   margin-bottom: 48px;
+  margin: 0px 20px;
 }
 .conteudo-principal {
   display: flex;
@@ -80,4 +87,14 @@ body {
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 290px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.botao-principal:hover {
+  background-color: var(--green);
+  color: #ffffff;
+  letter-spacing: 2px;
+  border: 1px solid #ffffff;
 }
